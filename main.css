@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Chewy&display=swap');
+
+@media screen and (max-width:400px){
+    body{
+        background-color: #74C3B4;
+    }
+    section{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .logo{
+        position: fixed;
+        left: 0;
+        bottom: 0pt;
+    }
+}
+
+@media screen and (min-width: 401px) and (max-width: 800px){
+    body{
+        background-color: chocolate;
+    }
+    section{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .logo{
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        display: none;
+    }
+}
+
+@media screen and (min-width: 801px){
+    body{
+        background-color: goldenrod;
+    }
+}
+
+body{
+    background-color: #74C3B4;
+}
+
+h1{
+    font-family: 'Chewy', cursive;
+    width: 80%;
+    margin: 0 auto;
+    text-align: left;
+    color: #EE7447;
+    line-height: 160%;
+    margin-bottom: 20px;
+
+
+}
+p{
+    font-family: "Montserrat";
+    width: 80%;
+    margin: 0 auto;
+    text-align: left;
+    color: #3C6D82;
+    font-size: 1.2em;
+    line-height: 160%;
+    margin-bottom: 20px;
+}
+li{
+    font-family: "Montserrat";
+    width: 80%;
+    margin: 0 auto;
+    text-align: left;
+    color: #3C6D82;
+    font-size: 1.2em;
+    line-height: 160%;
+    margin-bottom: 20px;
+}
+
+
+
+main{
+    width: 960px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+section{
+    width: 100%;
+
+}
+
+.imagenes{
+    padding-top: 10pt;
+
+}
+#definicion{
+    margin-top: 50pt;
+}
+
+#productos{
+    margin-top: 50pt;
+}
+
+#scrolldatos{
+    border: solid black 1px;
+    display: flex;
+    overflow: scroll;
+    width: 60%;
+    height: 80%;
+    margin: 0 auto;
+}
+#problema{
+    margin-top: 50pt;
+}
+#objetivos{
+    margin-top: 50pt;
+}
+
+#banner{
+    margin-top: 50pt;
+}
+
+#sinopsis{
+    margin-top: 50pt;
+}
+
+
